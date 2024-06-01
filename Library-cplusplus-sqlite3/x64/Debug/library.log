@@ -1,0 +1,30 @@
+﻿  database.cpp
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(32,48): error C2084: funkcja "Database::Database(const std::string &)" ma już treść
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(4): message : zobacz poprzednią definicję „{ctor}”
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(53,23): error C2084: funkcja "Database::~Database(void)" ma już treść
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(8): message : zobacz poprzednią definicję „{dtor}”
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(59,77): error C2084: funkcja "bool Database::addBook(const std::string &,const std::string &)" ma już treść
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(12): message : zobacz poprzednią definicję „addBook”
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(77,35): error C2084: funkcja "bool Database::deleteBook(int)" ma już treść
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(16): message : zobacz poprzednią definicję „deleteBook”
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(94,96): error C2084: funkcja "std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>> Database::searchBookByTitle(const std::string &)" ma już treść
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(20): message : zobacz poprzednią definicję „searchBookByTitle”
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(113,98): error C2084: funkcja "std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>> Database::searchBookByAuthor(const std::string &)" ma już treść
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(24): message : zobacz poprzednią definicję „searchBookByAuthor”
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(132,80): error C2084: funkcja "std::vector<std::tuple<int,std::string,std::string>,std::allocator<std::tuple<int,std::string,std::string>>> Database::getAllBooks(void)" ma już treść
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(28): message : zobacz poprzednią definicję „getAllBooks”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(602,1): error C2036: "std::tuple<int,std::string,std::string> *": nieznany rozmiar
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(620): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „decltype(auto) std::vector<std::tuple<int,std::string,std::string>,std::allocator<std::tuple<int,std::string,std::string>>>::_Emplace_back_with_unused_capacity<int&,std::string&,std::string&>(int &,std::string &,std::string &)” funkcji szablon
+D:\c++\rozdiał 3\c++ ponowny start\library\library\database.cpp(144): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „decltype(auto) std::vector<std::tuple<int,std::string,std::string>,std::allocator<std::tuple<int,std::string,std::string>>>::emplace_back<int&,std::string&,std::string&>(int &,std::string &,std::string &)” funkcji szablon
+  main.cpp
+D:\c++\rozdiał 3\c++ ponowny start\library\library\main.cpp(80,48): error C2036: "std::tuple<int,std::string,std::string> *": nieznany rozmiar
+D:\c++\rozdiał 3\c++ ponowny start\library\library\main.cpp(81,49): error C2672: „std::get”: nie znaleziono zgodnej przeciążonej funkcji
+D:\c++\rozdiał 3\c++ ponowny start\library\library\main.cpp(81,60): error C2784: „tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &std::get(std::pair<_Ty1,_Ty2> &) noexcept”: nie może wywnioskować argumentu szablon dla „std::pair<_Ty1,_Ty2> &” z „const std::tuple<int,std::string,std::string>”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\utility(532): message : zobacz deklarację „std::get”
+D:\c++\rozdiał 3\c++ ponowny start\library\library\main.cpp(81,85): error C2672: „std::get”: nie znaleziono zgodnej przeciążonej funkcji
+D:\c++\rozdiał 3\c++ ponowny start\library\library\main.cpp(81,96): error C2784: „tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &std::get(std::pair<_Ty1,_Ty2> &) noexcept”: nie może wywnioskować argumentu szablon dla „std::pair<_Ty1,_Ty2> &” z „const std::tuple<int,std::string,std::string>”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\utility(532): message : zobacz deklarację „std::get”
+D:\c++\rozdiał 3\c++ ponowny start\library\library\main.cpp(81,122): error C2672: „std::get”: nie znaleziono zgodnej przeciążonej funkcji
+D:\c++\rozdiał 3\c++ ponowny start\library\library\main.cpp(81,133): error C2784: „tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &std::get(std::pair<_Ty1,_Ty2> &) noexcept”: nie może wywnioskować argumentu szablon dla „std::pair<_Ty1,_Ty2> &” z „const std::tuple<int,std::string,std::string>”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\utility(532): message : zobacz deklarację „std::get”
+  Generowanie kodu...
